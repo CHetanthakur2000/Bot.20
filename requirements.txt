@@ -1,0 +1,10 @@
+pyTelegramBotAPI
+yt-dlp
+moviepy
+opencv-python
+pydub
+numpy
+scikit-image
+python-dotenv
+google-cloud-storage
+Pillow

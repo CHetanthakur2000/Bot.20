@@ -46,11 +46,9 @@ def trim_video_ffmpeg(input_path, output_path, start, end):
 
 # ---------------- CONFIG ----------------
 
-TOKEN = "8209533216:AAHQghbOE_4yQjBuj5-F_yV1hS5qx7i89Oo"
-
-GCS_BUCKET_NAME = "your-gcs-bucket-name"
-
-ADMIN_ID = 7966696528  # change to your admin Telegram id
+TOKEN = os.getenv("TELEGRAM_TOKEN")
+GROUP_ID = int(os.getenv("GROUP_ID"))
+ADMIN_ID = int.(os.getenv("ADMIN_ID"))  # change to your admin Telegram id
 
 # Make sure environment variable GOOGLE_APPLICATION_CREDENTIALS is set to service account JSON path
 
